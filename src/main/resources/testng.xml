@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MyTestSuite">
+    <!-- Optional: Add listeners -->
+<!--    <listeners>-->
+<!--        <listener class-name="utils.TestListener"/>  &lt;!&ndash; Register the TestListener class &ndash;&gt;-->
+<!--    </listeners>-->
+
+    <!-- Test Configuration -->
+    <test name="My Test Suite">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="test.LoginTest"/>  <!-- Replace with your actual test class -->
+        </classes>
+    </test>
+</suite>
